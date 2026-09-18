@@ -67,10 +67,17 @@
 ## 🗄️ 数据库设计
 
 ### E-R 模型核心关系
-辅料 ──m────n── 用户 （订购关系）
-管理员 ──统计── 人事档案
-管理员 ──统计── 考勤统计
+<div align="center">
+<img width="1300" height="770" alt="image" src="https://github.com/user-attachments/assets/ea1ee303-37f6-49f3-9a96-5f001964f77a" />
 
+  </div>
+<div align="center">
+<img width="1277" height="842" alt="image" src="https://github.com/user-attachments/assets/ec703519-9b06-4ac0-9266-8b1f95673d2c" />
+  </div>
+
+<div align="center">
+<img width="1295" height="1214" alt="image" src="https://github.com/user-attachments/assets/5b7e2483-09af-4681-8e5d-0811deca690e" />
+  </div>
 
 ### 主要数据表
 
@@ -95,31 +102,69 @@
 
 ---
 
-## 📁 项目结构
-
-公司销售管理系统/
-├── test1.py # 系统主程序（GUI + 业务逻辑）
-├── jiaoben.sql # 数据库建库建表脚本（SSMS 生成）
-├── 数据库.bacpac # 数据层应用程序包（含结构与数据）
-├── README.md
-└── static/ # 界面背景图（be/main/cha/gai/1/2/3.gif 等）
-
-
----
-
 ## 🖥️ 系统界面一览
 
 | 界面 | 功能说明 |
 |------|----------|
 | **登录界面** | 输入用户名密码登录，支持跳转注册 |
+
+<div align="center">
+<img width="1203" height="843" alt="image" src="https://github.com/user-attachments/assets/f6f924ba-c5c1-4371-a661-7fb95ba298fe" />
+
+  </div>
+  
 | **注册界面** | 注册新账号，默认普通用户权限 |
+<div align="center">
+<img width="508" height="451" alt="image" src="https://github.com/user-attachments/assets/0098f613-a951-425c-a54f-20c0f35ea166" />
+
+  </div>
+  
 | **主界面** | 六大功能按钮入口，按权限展示 |
+<div align="center">
+<img width="1209" height="841" alt="image" src="https://github.com/user-attachments/assets/71aa5c82-aa96-46ff-917e-d9eda768e9ed" />
+
+  </div>
+  
 | **信息查询** | 18 张表的按钮矩阵，点击进入对应表格 |
+<div align="center">
+<img width="799" height="1075" alt="image" src="https://github.com/user-attachments/assets/5e20b3c0-4d78-4a1d-bde8-cc71dba27c52" />
+
+  </div>
+  
 | **表查询界面** | Treeview 全表展示 + 条件查询，支持横向滚动 |
+<div align="center">
+<img width="1605" height="639" alt="image" src="https://github.com/user-attachments/assets/ebc0bd59-ce22-41a0-b8e8-c8d972dfb513" />
+
+  </div>
+  
 | **更新数据** | 添加 / 删除 / 修改三按钮，弹窗表单操作 |
+<div align="center">
+<img width="800" height="1075" alt="image" src="https://github.com/user-attachments/assets/468e0b90-a829-419a-a8fe-83ad565923ed" />
+<img width="282" height="397" alt="image" src="https://github.com/user-attachments/assets/cd904adb-0000-4eb1-81e8-48d469f030c0" />
+
+  </div>
+  
 | **人员管理** | 人事档案（含统计报表）+ 考勤统计（柱状图可视化） |
+<div align="center">
+<img width="802" height="640" alt="image" src="https://github.com/user-attachments/assets/58d7df83-7df3-43fd-8299-4d812e510d08" />
+<img width="999" height="828" alt="image" src="https://github.com/user-attachments/assets/00302df6-1c0b-4ab4-bbd4-b0f8d340a32b" />
+
+  </div>
+  
 | **客户订购** | 查询辅料 → 订购 → 金额计算 → 二维码支付 → 提交订单 |
+<div align="center">
+<img width="804" height="637" alt="image" src="https://github.com/user-attachments/assets/435dc1da-9b1b-4151-8ba5-42a9b0fc4ce6" />
+  <img width="804" height="636" alt="image" src="https://github.com/user-attachments/assets/aaad7aa0-3f1c-4e5b-b797-f0ddb4d7a41b" />
+
+<img width="801" height="637" alt="image" src="https://github.com/user-attachments/assets/f54d0c83-0079-4870-9811-eb0dcfffb82b" />
+
+  </div>
+  
 | **删除用户** | 管理员输入账号即可删除用户 |
+<div align="center">
+<img width="506" height="446" alt="image" src="https://github.com/user-attachments/assets/8907659d-590b-471a-b63d-121ccaa8d7e1" />
+
+  </div>
 
 ---
 
